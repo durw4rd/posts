@@ -16,6 +16,10 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
- main {
-    padding-top: 80px;
- }
+main {
+  padding-top: 80px;
+}
+
+.post-item {
+  margin-bottom: 15px;
+}

@@ -5,8 +5,8 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :posts
-  # 
-  # def handle
-  #   self.email.split('@')[0]
-  # end
+
+  def handle
+    self.email.split('@')[0]
+  end
 end
