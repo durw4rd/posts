@@ -2,11 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .post-item {
-  padding-right: 5px;
+  padding-right: 50px;
   border-right: 5px solid rgba(178, 71, 3, 0.95);
   transition: all 300ms ease-in;
 
   &:hover {
+    padding-right: 5px;
     border-right: 50px solid rgba(255, 133, 55, 0.95);
     transition: all 300ms ease-in;
   }
